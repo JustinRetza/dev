@@ -1,42 +1,5 @@
-## Craft Foundation 6 Sass/Gulp Starter Kit
-#### Configuration starter kit for Sassy  [Foundation 6](http://foundation.zurb.com/sites/docs/) with [CraftCMS](http://craftcms.com/) 2 OR 3  
-
-With this simple configuration you will be able to
-- add the latest greatest Foundation 6 to your Craft site
-- save hours of time in front-end development
-- get live previews in the browser while developing without ever hitting reload (browser-sync)
-
-You can get Foundation 6 a plethora of ways, we'll use the [foundation-cli](http://foundation.zurb.com/sites/docs/installation.html) for this.
-
-You can `$ npm install --global foundation-cli` then `$ foundation new` and use this starter kit in your newly initialized dir
-
-or  
-
-You can grab/setup Foundation 6 one of the many [other ways](http://foundation.zurb.com/sites/docs/installation.html#manual-setup) and copy over the `_settings.scss` file into your `/src/` directory yourself.
-
-**Foundation Install Docs**:
-
-[Foundation Installation Guide](http://foundation.zurb.com/sites/docs/installation.html)  
-[Zurb/Foundation on Github](https://github.com/zurb/foundation-sites)  
-
-**Note**: this is simply a jumping off point for those looking to work with Foundation in their Craft build. there are endless ways to do this, if you have an idea - please feel free to add to or correct this repo, and hey, thank you.
-
-********************
-
-## Setup:  
-
-#####Step 1.
-    git clone https://github.com/fndaily/craft-foundation-6 your_project_dir
-    cd your_project_dir
-    bower install
-    npm install
-    cp bower_components/foundation-sites/scss/settings/_settings.scss src/scss/_settings.scss
-
-#####Step 2.
-    Grab a copy of Craft CMS and replace the /craft/ directory with your newly downloaded copy.
-
-#####Step 3.
-    Update "http://YOURDOMAIN.dev" in `gulpfile.babel.js` line 97
+## Dev Repo
+#### FND Development
 
 ********************
 

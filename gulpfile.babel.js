@@ -56,7 +56,7 @@ function sass() {
     }))
     // put everything nicely into one file
     .pipe($.concat('display.css'))
-    // with the --production flag, the css is cleaned 
+    // with the --production flag, the css is cleaned
     .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
     // then compressed && stripped of all comments
     .pipe($.if(PRODUCTION, $.cssnano({discardComments: {removeAll: true}})))
@@ -100,7 +100,7 @@ function server(done) {
         notify: false,
         port: 3000,
         proxy: {
-            target: "http://YOURDOMAIN.dev",
+            target: "http://hydropony.dev",
             middleware: function (req, res, next) {
                 console.log(req.url);
                 next();
